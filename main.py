@@ -6,8 +6,7 @@ import time
 from pytz import timezone
 from datetime import datetime
 import jishaku
-from keep_alive import keep_alive
-keep_alive()
+
 
 client = commands.Bot(command_prefix=".", intents = discord.Intents.all(), owner_ids = [918956960571879437])
 token = os.environ["token"]
