@@ -29,6 +29,5 @@ async def on_ready():
 
 
 
-
-
-client.run(token)
+if __name__ == '__main__':
+  client.run(token)
