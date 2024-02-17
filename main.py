@@ -30,7 +30,4 @@ async def on_ready():
 
 
 
-try:
-  client.run(token)
-except:
-  os.system("kill 1")
+client.run(token)
