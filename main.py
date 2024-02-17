@@ -3,15 +3,15 @@ from discord.ext import commands
 import os 
 import datetime
 import time
-import keep_alive
 from pytz import timezone
 from datetime import datetime
 import jishaku
+from keep_alive import keep_alive
+keep_alive()
 
 client = commands.Bot(command_prefix=".", intents = discord.Intents.all(), owner_ids = [918956960571879437])
 token = os.environ["token"]
 timestamp = datetime.now()
-keep_alive.keep_alive()
 logging_channel_id = 990309743555915866
 user_id = 918956960571879437
 client.remove_command('help')
