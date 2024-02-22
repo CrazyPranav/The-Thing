@@ -15,7 +15,7 @@ class spy(commands.Cog):
 
 
     @commands.Cog.listener()
-    async def on_voice_state_update(sef, member, before, after):
+    async def on_voice_state_update(self, member, before, after):
         if not before.channel and after.channel:
             if member.id == 730680241265311824:
               ind_time = datetime.now(timezone("Asia/Kolkata")).strftime('%I:%M %p')
