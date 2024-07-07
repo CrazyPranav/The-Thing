@@ -23,7 +23,7 @@ async def on_ready():
   await client.load_extension("cogs.spy")
   await client.load_extension("cogs.nevermore")
   await client.load_extension('cogs.timer')
-  await client.change_presence(status=discord.Status.dnd, activity=discord.Game(name= f'Watching Over Outcasts !', url= 'https://youtube.com/shorts/buKaBN3dliw?feature=share'))
+  await client.change_presence(status=discord.Status.dnd, activity=discord.Game(name= f'Watching Over Skyline !', url= 'https://youtube.com/shorts/buKaBN3dliw?feature=share'))
   print(f''' LOGGED IN AS {client.user}''')
 
 
