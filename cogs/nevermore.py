@@ -31,7 +31,7 @@ class nevermore(commands.Cog):
       member = ctx.author
       embed = discord.Embed(title=" <a:ace_heart:865258867234570250> Welcome to Skyline 𖤓  <a:ace_heart:865258867234570250>",color = 0x2f3136, description=f" <a:REAL_RightArrow:865840196927225886> Account Created : <t:{int(member.created_at.timestamp())}:f> \n<a:REAL_RightArrow:865840196927225886> [rules](https://discord.gg/9jAhQkkUgB) • [self roles](https://discord.gg/Etj68bKJJz) • [drops](https://discord.gg/6DwHyVXkVj)")
       embed.set_footer(text = f" You are {len(guild.members)}th member! | {member}",icon_url=member.display_avatar.url)
-      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259421272652382298/IMG_20240707_134017.jpg?ex=668b9ef6&is=668a4d76&hm=af5843ad94330d4fe59e29339450fd500fd113325becfa3a52fca1a6a0c20d01&")
+      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259414329799741521/VN20240707_121916-ezgif.com-video-to-gif-converter.gif?ex=668b987f&is=668a46ff&hm=9d9a1e6d472d9ee28fdbb28e0f1d60b9faeefc759da4846ed190849a41071e55&")
       channel = self.bot.get_channel( self.logging_channel_id )
       await channel.send(content=member.mention,embed=embed)
 
