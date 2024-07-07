@@ -17,7 +17,7 @@ class nevermore(commands.Cog):
     if guild.id == 734418473580494869:
       embed = discord.Embed(title=" <a:ace_heart:865258867234570250> Welcome to Skyline 𖤓  <a:ace_heart:865258867234570250>",color = 0x2f3136, description=f" <a:REAL_RightArrow:865840196927225886> Account Created : <t:{int(member.created_at.timestamp())}:f> \n<a:REAL_RightArrow:865840196927225886> [Rules](https://discord.gg/9jAhQkkUgB) • [Self Roles](https://discord.gg/Etj68bKJJz) • [Drops](https://discord.gg/6DwHyVXkVj)")
       embed.set_footer(text = f" You are {len(guild.members)}th member! | {member}",icon_url=member.display_avatar.url)
-      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259414329799741521/VN20240707_121916-ezgif.com-video-to-gif-converter.gif?ex=668b987f&is=668a46ff&hm=9d9a1e6d472d9ee28fdbb28e0f1d60b9faeefc759da4846ed190849a41071e55&")
+      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259472473661898842/IMG_20240707_170351.jpg?ex=668bcea5&is=668a7d25&hm=999428eee42904e51b521684c7f60bc778f9c7377d6dfbb78a44c9071215baa3&")
       channel = self.bot.get_channel( self.logging_channel_id )
       rules = self.bot.get_channel(self.rules_channel)
       srole = self.bot.get_channel(self.self_roles)
@@ -31,7 +31,7 @@ class nevermore(commands.Cog):
       member = ctx.author
       embed = discord.Embed(title=" <a:ace_heart:865258867234570250> Welcome to Skyline 𖤓  <a:ace_heart:865258867234570250>",color = 0x2f3136, description=f" <a:REAL_RightArrow:865840196927225886> Account Created : <t:{int(member.created_at.timestamp())}:f> \n<a:REAL_RightArrow:865840196927225886> [rules](https://discord.gg/9jAhQkkUgB) • [self roles](https://discord.gg/Etj68bKJJz) • [drops](https://discord.gg/6DwHyVXkVj)")
       embed.set_footer(text = f" You are {len(guild.members)}th member! | {member}",icon_url=member.display_avatar.url)
-      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259414329799741521/VN20240707_121916-ezgif.com-video-to-gif-converter.gif?ex=668b987f&is=668a46ff&hm=9d9a1e6d472d9ee28fdbb28e0f1d60b9faeefc759da4846ed190849a41071e55&")
+      embed.set_image(url= "https://cdn.discordapp.com/attachments/913514091677614160/1259472473661898842/IMG_20240707_170351.jpg?ex=668bcea5&is=668a7d25&hm=999428eee42904e51b521684c7f60bc778f9c7377d6dfbb78a44c9071215baa3&")
       channel = self.bot.get_channel( self.logging_channel_id )
       await channel.send(content=member.mention,embed=embed)
 
